@@ -24,7 +24,7 @@ jobs:
         with:
           poetry-version: 1.2.0
       - name: install dependencies
-        run: poetry lock
+        run: poetry lock --no-update
         
       - name: poetry install dependencies
         run: poetry install
