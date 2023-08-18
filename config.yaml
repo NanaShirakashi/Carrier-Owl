@@ -3,9 +3,10 @@ subject: 'cat:cs.CV'
 
 # 検索キーワード
 keywords:
-        passive NLoS: 3
+        Non-line-of-sight: 3
         hyperspectral: 3
         domain adaptation: 2
+        passive: 1
         cosine similarity: 1
 
 # 通知の閾値
