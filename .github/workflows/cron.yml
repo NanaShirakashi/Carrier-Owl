@@ -25,7 +25,7 @@ jobs:
           poetry-version: 1.2.0
 
       - name: install dependencies
-        run: poetry init
+        run: poetry init -n
         
       - name: poetry install dependencies
         run: poetry install
