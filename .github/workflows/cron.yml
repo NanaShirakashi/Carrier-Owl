@@ -23,12 +23,12 @@ jobs:
         uses: abatilo/actions-poetry@v2.1.6
         with:
           poetry-version: 1.2.0
-
-      - name: install dependencies
-        run: poetry init -n
         
       - name: poetry install dependencies
         run: poetry install
+        
+      - name: install dependencies
+        run: poetry init -n
 
       - name: Run owl
         run:
