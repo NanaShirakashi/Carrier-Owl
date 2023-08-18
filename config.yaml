@@ -3,7 +3,7 @@ subject: 'cat:cs.CV'
 
 # 検索キーワード
 keywords:
-        Non-line-of-sight: 3
+        NLoS: 3
         hyperspectral: 3
         domain adaptation: 2
         passive: 1
